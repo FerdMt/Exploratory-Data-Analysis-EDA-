@@ -88,7 +88,7 @@ pd.crosstab(df.status, df.product_id,)
 ##crosstab package using pandas status price
 pd.crosstab(df.status, df.price,)
 
-# prompt: data set splitting
+# data set splitting
 X = df.drop(columns="status_id")
 y = df.status_id
 
